@@ -139,7 +139,7 @@ The dry-run mode will show the user what bids Aether suggests, but will not use
 any cloud resources.
 To run Aether in dry-run mode, simply run the following in the Aether directory:
 ```sh
-aether --dry-run [ARGS]
+aether --dry_run [ARGS]
 ```
 Note that you can run the Dry-Run mode in interactive mode by just adding the
 ``--interactive`` or ``-I`` argument to this command.
@@ -158,7 +158,7 @@ Usage: aether [OPTIONS]
 
 Options:
   -I, --interactive             Enables interactive mode.
-  --dry-run                     Runs Aether in dry-run mode. This shows what
+  --dry_run                     Runs Aether in dry-run mode. This shows what
                                 cloud computing resources Aether would use,
                                 but does not actually use them or perform any
                                 computation.
